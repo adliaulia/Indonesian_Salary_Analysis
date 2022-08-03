@@ -1,10 +1,7 @@
 import streamlit as st
-import lorem
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
-# run: streamlit run app.py
 
 st.set_page_config(page_icon=":bar_chart:", page_title="Tingkat Kenaikan UMP Di Indonesia", layout="centered")
 st.markdown("""
