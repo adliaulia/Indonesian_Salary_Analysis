@@ -52,7 +52,7 @@ st.markdown('''<p class="normal-font">
 Tahukah kamu bahwa <b>Upah Minimum Provinsi (UMP)</b> di Indonesia memiliki nilai yang berbeda-beda? dan apakah nilainya akan selalu sama, naik ataukah turun? Sebelum itu, perlu diketahui apa itu Upah Minimum Provinsi. Upah Minimum Provinsi (UMP) atau lebih dikenal UMR adalah standar minimum yang diberikan oleh pekerja dan ditetapkan oleh pemerintah berdasarkan <b>UU No. 11 Tahun 2020 tentang Cipta Kerja</b> yang diturunkan melalui <b>Peraturan Pemerintah (PP) No. 36 tahun 2021 tentang pengupahan</b>. Pada halaman resmi <b>BPS</b> (bps.go.id) besarnya UMP pada setiap daerah berbeda dan sudah ada sejak tahun 1997.
 </p>''', unsafe_allow_html=True)
 
-st.markdown('<p style="color:Grey; font-size: 100%;">(Sumber : Kaggle dan Kementerian Ketenagakerjaan RI)</p>', unsafe_allow_html=True)
+st.markdown('<p style="color:Grey; font-size: 100%;">(Sumber : BPS dan Kementerian Ketenagakerjaan RI)</p>', unsafe_allow_html=True)
 
 st.dataframe(data_final)
 
